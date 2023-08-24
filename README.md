@@ -1,4 +1,3 @@
-# ChurnPrediction
 # Customer Churn Prediction Project
 # About
 This project focuses on predicting customer churn based on historical customer data. Churn prediction is crucial for businesses to retain customers and reduce revenue loss. We utilized machine learning techniques to analyze customer attributes, interactions, and past churn behavior to make accurate predictions.
