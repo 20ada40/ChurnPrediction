@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Churn</title>
+</head>
+<h2><center><u> CUSTOMER CHURN PREDICTION </u></center></h2>
+<body style="background-color:powderblue;">
+    <form action="{{url_for('predict')}}" method="POST">
+
+    <fieldset>
+        <center>
+                 <div class="form" >
+                     <label for="Age">Age:</label><br>
+                     <input style="background-color: gold;" type="number" name="Age" id="Age" value="" ><br>
+
+                     <label for="Gender"> Gender:</label><br>
+                     <input style="background-color: gold;" type="text" name="Gender" id="Gender" value=""><br>
+
+                     <label for="Location">Location:</label><br>
+                     <input style="background-color: gold;" type="text" name="Location" id="Location" value=""><br>
+
+                     <label for="Subscription_Length_Months">Subscription_Length_Months:</label><br>
+                     <input style="background-color: gold;" type="number" name="Subscription_Length_Months" id="Subscription_Length_Months" value=""><br>
+
+                     <label for="Monthly_Bill">Monthly_Bill:</label><br>
+                     <input style="background-color: gold;" type="text" name="Monthly_Bill" id="Monthly_Bill" value=""><br>
+
+                     <label for="Total_Usage_GB">Total_Usage_GB:</label><br>
+                     <input style="background-color: gold;" type="text" name="Total_Usage_GB" id="Total_Usage_GB" value=""><br>
+                 <div>
+
+                 <div class="col-sm-3">
+                     <button style="background-color:red;border-color:powderblue;color:white" type="submit" class="btn btn-primary" name="submit" type="submit">SUBMIT</button>
+			     </div>
+    </center>
+    </fieldset>
+
+</form>
+
+<div class="form">
+    <center><br>
+        <output> <strong>{{op1}}</strong></output><br><output><strong>{{op2}}</strong></output>
+    </center>
+</div>
+</body>
+</html>
